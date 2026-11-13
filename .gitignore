@@ -1,0 +1,33 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# SSH keys and credentials
+*.pem
+*.key
+id_rsa
+id_ed25519
+.ssh/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+
+# Ansible
+*.retry
+vault-password-file
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
